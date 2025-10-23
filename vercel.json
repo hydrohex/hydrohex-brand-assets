@@ -1,6 +1,1 @@
-$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
-[System.IO.File]::WriteAllText(
-  "vercel.json",
-  '{ "cleanUrls": true, "trailingSlash": false }',
-  $utf8NoBom
-)
+{ "cleanUrls": true, "trailingSlash": false }
