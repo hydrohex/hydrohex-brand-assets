@@ -4,7 +4,3 @@ $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
   '{ "cleanUrls": true, "trailingSlash": false }',
   $utf8NoBom
 )
-
-git add vercel.json
-git commit -m "Add vercel.json (UTF-8 no BOM)"
-git push
